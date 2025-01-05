@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: dataset_local_bike
+    schema: dataset_local_bike
+    tables:
+      - name: brands
+      - name: categories
+      - name: customers
+      - name: order_items
+      - name: orders
+      - name: products
+      - name: staffs
+      - name: stocks
+      - name: stores
+      
