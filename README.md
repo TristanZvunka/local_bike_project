@@ -10,16 +10,16 @@ Alexander Anthony, founder of Local Bike, spent a decade as a professional cycli
 Objective:
 
 Define analysis axes:
-○ Identify key analysis axes to support the operations team.
-○ The ultimate goal is to help them optimize sales and maximize the company’s revenue through actionable insights.
+## ○ Identify key analysis axes to support the operations team.
+{{○ The ultimate goal is to help them optimize sales and maximize the company’s revenue through actionable insights.
 
 Data modeling:
-○ Import raw data into BigQuery.
-○ Structure the data within a DBT project to facilitate analysis.
+## ○ Import raw data into BigQuery.
+## ○ Structure the data within a DBT project to facilitate analysis.
 
 Testing and documentation:
-○ Implement tests and complete documentation, especially for models connected to dashboards.
+## ○ Implement tests and complete documentation, especially for models connected to dashboards.
 
 Visualization and sharing:
-○ Host the project on GitHub to enable peer review.
-○ Create one or more visualizations using your preferred BI tool (Metabase, Power BI, Tableau) to present insights visually.
+## ○ Host the project on GitHub to enable peer review.
+## ○ Create one or more visualizations using your preferred BI tool (Metabase, Power BI, Tableau) to present insights visually.
