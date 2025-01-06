@@ -1,4 +1,6 @@
 SELECT 
+order_id,
+store_id,
 customer_id,
 order_status,
 order_date,
