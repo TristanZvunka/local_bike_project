@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+    - name: stg_brands
+      description: "direct extract from db"
+      columns:
+          - name: brand_id
+            description: "primarey key for brand"
+            tests:
+                - unique
+                - not_null
+
