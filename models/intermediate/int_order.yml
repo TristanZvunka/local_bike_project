@@ -1,0 +1,10 @@
+models:
+  - name: int__order 
+    description: This table contains compiled informations related to orders as total amount or store associated to the purchase
+
+    columns:
+      - name: order_id
+        description: This is a unique identifier for the event
+        tests:
+          - unique
+          - not_null
