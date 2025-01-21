@@ -10,4 +10,30 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: stg_categories
+      description: "direct extract from db"
+      columns:
+          - name: category_id
+            description: "primarey key for category"
+            tests:
+                - unique
+                - not_null
+    - name: stg_orders
+      description: "direct extract from db"
+      columns:
+          - name: order_id
+            description: "primarey key for order"
+            tests:
+                - unique
+                - not_null
+    - name: stg_order_items
+      description: "direct extract from db"
+      columns:
+          - name: order_id
+            description: "primarey key for order"
+            tests:
+                - not_null
+          - name: product_id
+            description: "primarey key for product"
 
+  
