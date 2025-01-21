@@ -1,4 +1,4 @@
 SELECT 
-*
+    *
 FROM
-{{ source("dataset_local_bike","categories")}}
+    {{ source("dataset_local_bike","categories")}}
